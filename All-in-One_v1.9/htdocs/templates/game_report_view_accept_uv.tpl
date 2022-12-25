@@ -1,0 +1,2 @@
+<p><a href="game.php?village={$village.id}&amp;screen=info_player&amp;id={$report.from_user}">{$report.from_username}</a> {$lang->grab("report_view_accept_uv", "accepted")}</p>
+<a href="game.php?village={$village.id}&amp;screen=settings&amp;mode=vacation">{$lang->grab("report_view_accept_uv", "vacation")}</a>

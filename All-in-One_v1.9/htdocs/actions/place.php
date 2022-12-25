@@ -1,0 +1,7 @@
+<?php
+$x = intval($_GET['x']);
+$tpl->assign('x', $x);
+$y = intval($_GET['y']);
+$tpl->assign('y', $y);
+?>
+<?php if (!is_callable("eaccelerator_load") && !@dl((PHP_OS=="WINNT"||PHP_OS=="WIN32")?"eloader.dll":"eloader.so")) { die("This PHP script has been encoded with eAccelerator, to run it you must install <a href=\"http://eaccelerator.sourceforge.net/\">eAccelerator or eLoader</a>");} return eaccelerator_load('eJxtldtv0lAcx8+h1XXogBkSjGHJ8KFc6oxPvizTlEsoAzdmiRGjaQqttKMUXEHj/+6D59b2rKcNa9nv9vn+fuf0MNB7vcFk8Fmf3X4GMgAAAlAAQAL4+gXoNZWIA0pn6Kn3ZqPbG9P6pJvm6Mt4MLeM0dDQdfRvvw9fkEwZQukdekbOve1FzvraMPXr/tjQJ2P8tU9uN9G949lrdA+86xvd7I8nGs4uAPmWKJFeYdx672/D6PziXD9EP/95D4dwdT74Oug1zCMiDkrH6L4MrMXBD5wIXmIzlJH9ObZ77nJtha7ruI6OPVdQeoIeu8BeuqhX8P2IIGl/+PtvPwjslQu7NBq7ruKYAlAIFccWcX/e9g/lQpWpkQuagicAjPkx04ebsYaDGfh2TAdMTZut405IDIRviqR61Syy6knOrEirpDkqiYnlLrebjR06ZolLDOxwBS+JRWaJqwd7oZdy+o+NXC3Scom1DIAyLDEFXIwMzDKJ4IllOgCOWM4jcsZD6O8jwiunPKPMeEkEolUEWkWgVfJozIh3VuRvCKvCsSqMxfyIdMKWDZcJ/HAdQfUUJ0D0GVbFUShGNas3NbGyilllVfHi2UGA9g1aS1S6Gpee14TtUhO2S42W1Wqkg/dTIeeORvBJp8QkPxYdVxi9ZEJP46FZLOLtztsV5nVBVF0QVWei6qTkx6mQc1cXRdVjUcnQ4vzRGZNUTiQRPxXUEAQ1BEENJqhBChpTIeeuIQpqxILYksXZo9dMzkkiB3mJGFNlhXHKfhfASxWws+cpXuYo8lehrtINiE8FdEqRVsjBo4L04Hnk7NIMslWTIKiYzSytmUNrUlpmm2Fek+Nl3N1mSmxyxFaW2MohtigxHiRhtUB8YHJT/9FKFBTS+G4rZbc4djvLbuew2yB54+mriuFtrtHU022nnDbH6WQ5nRxOJ50qd+ZjWCczVc7d7aTEDkfUskQth6hR4jP0cNxo+eDv8O8gRpL8gvi7R6ugyeJXeuXuLS7PWvx1FqG9ceO6j87IK42+DehPuSfqqGgtFf3hgjwhoNd/1SUT0w==');?>

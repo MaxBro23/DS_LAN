@@ -1,0 +1,40 @@
+Dies ist eine von mir schnell geschriebene README, eine genauere wird folgen!!!
+
+== INSTALLATION ==
+
+1.) Alles entzippen, was wahrscheinlich gerade passiert ist.
+2.) setup_xampp öffnen und ausführen lassen.
+3.) Falls das Programm "Skype" am PC läuft, so dieses nun schließen
+4.) apache_start, dslan_start und mysql_start öffnen, diese Fenster nicht schließen!
+5.) Im Webbrowser (Internet Explorer,Mozilla,..) nun "localhost" eingeben.
+6.) Erscheint DS LAN, so wurde es erfolgreich installiert!
+7.) Alle anderen PCs im Netzwerk müssen deine IP Adresse eingeben.
+	-> Wie erfahre ich meine IP Adresse?
+	1.) Start -> Ausführen
+	2.) In das Eingabefeld "cmd" eingeben
+	3.) Nun öffnet sich die Kommandozeile, dort gibt man "ipconfig" ein
+	4.) Nun werden ein paar Zeilen aufgelistet, unter anderem diese:
+		IP-Adresse. . . . . . . . . . . . : 192.168.50.2
+
+		Hier sieht man nun die IP Adresse, bei mir währe es "192.168.50.2"
+		Diese müssen die anderen bei der Adresse eingeben & schon kann gezockt werden :D
+
+== KONFIGURATION ==
+
+Speed etc.. kann unter folgende Datei eingestellt werden:
+
+Verzeichnis, wo DS LAN entpackt wurde \htdocs\include\config.php
+
+Diese Datei mit einem beliebigen Editor öffnen
+
+
+== ADMINISTRATION ==
+
+Adresse: localhost/admin bzw. IP-Adresse/admin
+
+Passwort: editme
+Dieses kann in der Konfiguration geändert werden!
+
+
+
+Eine genaue README folgt!

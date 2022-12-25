@@ -1,0 +1,20 @@
+CREATE TABLE `awards` (
+`id` INT( 10 ) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`user_id` INT( 10 ) NOT NULL ,
+`last_rep_id` INT( 10 ) NOT NULL ,
+`min_vill` INT( 12) NOT NULL,
+`max_points` VARCHAR( 15 ) NOT NULL ,
+`best_rank` INT( 2 ) NOT NULL ,
+`robber` VARCHAR( 22 ) NOT NULL ,
+`plunderer` VARCHAR( 12 ) NOT NULL ,
+`leader` VARCHAR( 12 ) NOT NULL ,
+`conquest` INT( 10 ) NOT NULL ,
+`jinx` INT( 2 ) NOT NULL ,
+`lucky` INT( 2 ) NOT NULL ,
+`dealer` VARCHAR( 12 ) NOT NULL,
+`krsus` INT( 8 ) NOT NULL,
+`demolisher` INT( 10 ) NOT NULL,
+`scout_hunter` INT( 10 ) NOT NULL,
+`steps` VARCHAR( 25 ) NOT NULL,
+`steps_all` INT( 3 ) NOT NULL
+) ENGINE = MYISAM ;

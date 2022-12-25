@@ -1,0 +1,5 @@
+1. Entpacke das Archiv
+
+2. Ersetzte die index.tpl und register.tpl Dateien im Ordner "DsLan/htdocs/templates/" mit den heruntergeladenen.
+
+3. Lade (wenn noch nicht geschen) die aktuellste Version herunter.

@@ -1,0 +1,35 @@
+<?php
+	$lang->set_vars("welcome", "Hello, I've just made the graphical bot interface. It makes it easier to find bot function and edit the config. With this version, I started to make the bot mulitlanguageable. For the first, only English and German is planed, but with your help, we can be able to translate it in many other languages.");
+	$lang->set_vars("startpage","Startpage");
+	$lang->set_vars("editcon","Edit config");
+	$lang->set_vars("help","Help");
+	$lang->set_vars("infor","Informations");
+	$lang->set_vars("botplayers","Players");
+	$lang->set_vars("error","A error has been detected!");
+	$lang->set_vars("startbot","Start bot");
+	$lang->set_vars("stopbot","Stop bot");
+	$lang->set_vars("clean_log","Clean log");
+	$lang->set_vars("botstarted","The bot had been started!");
+	$lang->set_vars("botstoped","The bot had been stoped!");
+	$lang->set_vars("noajax","No ajax, the bot wont work!");
+	$lang->set_vars("beable","The bot is able to");
+	$lang->set_vars("farm","farm villages");
+	$lang->set_vars("recruit","recruit units");
+	$lang->set_vars("r_snob","recruit snobs");
+	$lang->set_vars("build","build buildings");
+	$lang->set_vars("techs","research techs");
+	$lang->set_vars("playernotexist","The player {player} doesn't exist!");
+	$lang->set_vars("alreadybot","The player {player} is already controled by this bot!");
+	$lang->set_vars("botadd","The player {player} is now controled by this bot!");
+	$lang->set_vars("notcontroled","The player {player} is not controled by this bot!");
+	$lang->set_vars("botdelete","The player {player} is not any more controled by this bot!");
+	$lang->set_vars("foot","bot by -superking- | style by milos | graphics by localh0st");
+	$lang->set_vars("delete","Delete");
+	$lang->set_vars("noplayers","No player is controled by this bot");
+	$lang->set_vars("addplayer","Add player");
+	$lang->set_vars("clang","Change language");
+	$lang->set_vars("cvill","Created village for the bot with the id {id}");
+	$lang->set_vars("runit","Unit {unit} recruited");
+	$lang->set_vars("dresearch","{tech} was researched");
+	$lang->set_vars("dbuild","{build} was built");
+?>

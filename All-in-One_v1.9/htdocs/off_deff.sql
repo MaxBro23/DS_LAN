@@ -1,0 +1,1 @@
+﻿ALTER TABLE `villages` ADD `type` VARCHAR( 4 ) NOT NULL ;

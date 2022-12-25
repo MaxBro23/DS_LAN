@@ -1,0 +1,42 @@
+Installation:
+
+1. Ladet euch zuerst die aktuellste Version herunter.
+2. Öffnet den Ordner DsLan/htdocs/templates/index.tpl (diese Schritte müssen nicht getan werden, 
+   wenn die tempelates heruntergeladen werden. Gehe dann zu Punkt 6.)
+
+3.1 Such die Zeile:
+	<form action="index.php?action=login" method="post">
+3.2 Und fügt danach ein:
+	<input type="hidden" id="fehler" name="{$error}">
+3.3 Schließt dann wieder die Datei
+		------------------
+4.1 Öffnet register.tpl
+4.2.1 Such die Zeile:
+	 <form action="register.php?action=validate" method="post">
+4.2.1 Und fügt danach ein:
+	 <input type="hidden" id="fehler" name="{$error}">
+		------------------
+4.3.1 Such die Zeile:
+	 <input name="name" type="text" value="{$name}" />
+4.3.2 Und ersetze diese mit:
+	 <input id="name" name="name" type="text" value="{$name}" />
+		------------------
+4.4.1 Such die Zeile:
+	 <input name="password" type="password" value="" />
+4.4.2 Und ersetze diese mit:
+	 <input id="password" name="password" type="password" value="" />
+		------------------
+4.5.1 Such die Zeile:
+	 <input name="password_confirm" type="password" value="" />
+4.5.2 Und ersetze diese mit:
+	 <input id="password_confirm" name="password_confirm" type="password" value="" />
+		------------------
+4.6.1 Such die Zeile:
+	 <input name="agb" type="checkbox" />
+4.6.2 Und ersetze diese mit:
+	 <input checked="true" name="agb" type="checkbox" />
+		------------------
+5. Schließt nun wieder die Datei. 
+
+6. Danach entpackt das heruntergeladene Archiv.
+7. Nun startet „Ds Lan.exe“ (natürlich müssen die drei „.bat“ Dateien laufen!)

@@ -1,0 +1,35 @@
+<?php
+	$lang->set_vars("welcome","Hallo, hier ist der jetzt endlich das grafische Botinterface. Es soll dem Benutzer die Vorteile bringen, dass alle Funktionen des Bots besser zu finden sind, den Bot zu kontrolieren usw. Außerdem wird der Bot mehrsprachig sein. Es ist fürs erste nur Deutsch und Englisch geplant, aber diese werden sich ganz leicht erweitern lassen. Über Rückmeldungen würde ich mich sehr freuen. Soviel von meiner Seite.");
+	$lang->set_vars("startpage","Startseite");
+	$lang->set_vars("editcon","Config &auml;ndern");
+	$lang->set_vars("help","Hilfe");
+	$lang->set_vars("infor","Infos");
+	$lang->set_vars("botplayers","Spieler");
+	$lang->set_vars("error","Es ist ein Fehler aufgetreten!");
+	$lang->set_vars("startbot","Bot starten");
+	$lang->set_vars("stopbot","Bot stoppen");
+	$lang->set_vars("clean_log","Log s&auml;ubern");
+	$lang->set_vars("botstarted","Der Bot wurde gestartet!");
+	$lang->set_vars("botstoped","Der Bot wurde gestopt!");
+	$lang->set_vars("noajax","Kein Ajax, der Bot wird nicht funktionieren!");
+	$lang->set_vars("beable","Der Bot kann");
+	$lang->set_vars("farm","Dörfer farmen");
+	$lang->set_vars("recruit","Einheiten rekutieren");
+	$lang->set_vars("r_snob","Adelsgeschlechter rekutieren");
+	$lang->set_vars("build","Gebäude ausbauen");
+	$lang->set_vars("techs","In der Schmiede forschen");
+	$lang->set_vars("playernotexist","Der Spieler {player} existiert nicht!");
+	$lang->set_vars("alreadybot","Der Spieler {player} wird schon von diesem Bot gespielt!");
+	$lang->set_vars("botadd","Der Spieler {player} wird ab jetzt von diesem Bot gespielt!");
+	$lang->set_vars("notcontroled","Der Spieler {player} wird nicht von diesem Bot gespielt!");
+	$lang->set_vars("botdelete","Der Spieler {player} wird nicht mehr von diesem Bot gespielt!");
+	$lang->set_vars("foot","Bot by -superking- | Style by milos | Grafiken by localh0st");
+	$lang->set_vars("delete","Löschen");
+	$lang->set_vars("noplayers","Es werden keine Spieler von diesem Bot gesteuert");
+	$lang->set_vars("addplayer","Spieler hinzufügen");
+	$lang->set_vars("clang","Sprache ändern");
+	$lang->set_vars("cvill","Es wurde ein Dorf für den Spieler mit der ID {id} erstellt");
+	$lang->set_vars("runit","Einheit {unit} rekutiert");
+	$lang->set_vars("dresearch","{tech} erforscht");
+	$lang->set_vars("dbuild","{build} gebaut");
+?>

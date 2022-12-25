@@ -1,0 +1,38 @@
+function add_movement( $from_userid, $from_id, $to_userid, $to_id, $units, $type, $start_time, $end_time, $from_hidden, $building = "", $turn = "false" )
+{
+    $db =& $db;
+    if ( $from_hidden )
+    {
+        $from_hidden = 1;
+    }
+    else
+    {
+        $from_hidden = 0;
+    }
+    if ( $turn )
+    {
+        $sfrom_userid = $to_userid;
+        $sfrom_id = $to_id;
+        $sto_userid = $from_userid;
+        $sto_id = $from_id;
+    }
+    else
+    {
+        $sfrom_userid = $from_userid;
+        $sfrom_id = $from_id;
+        $sto_userid = $to_userid;
+        $sto_id = $to_id;
+    }
+    $sql = "INSERT into movements (from_village,to_village,from_userid,to_userid,units,type,start_time,end_time,to_hidden,building,send_from_user,send_from_village,send_to_user,send_to_village)";
+    $sql .= "VALUES ('".$from_id."','".$to_id."','".$from_userid."','".$to_userid."','".$units."','".$type."','".$start_time."','".$end_time."','".$from_hidden."','".$building."','".$sfrom_userid."','".$sfrom_id."','".$sto_userid."','".$sto_id."')";
+    $db->query( $sql );
+    if ( $type == "attack" )
+    {
+        $db->query( "UPDATE users SET attacks=attacks+'1' where id='".$to_userid."'" );
+        $db->query( "UPDATE villages SET attacks=attacks+'1' where id='".$to_id."'" );
+    }
+    $db->query( "INSERT into events (event_time,event_type,event_id,user_id,villageid) VALUES ('".$end_time."','movement','".$id."','".$from_userid."','".$from_id."')" );
+}
+
+==============================
+

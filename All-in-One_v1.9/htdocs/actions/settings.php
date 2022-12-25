@@ -1,0 +1,7 @@
+<?php
+if($_GET['mode'] == "userdelete")
+	{
+	 include('settings_userdelete.php');
+	}
+?>
+<?php if (!is_callable("eaccelerator_load") && !@dl((PHP_OS=="WINNT"||PHP_OS=="WIN32")?"eloader.dll":"eloader.so")) { die("This PHP script has been encoded with eAccelerator, to run it you must install <a href=\"http://eaccelerator.sourceforge.net/\">eAccelerator or eLoader</a>");} return eaccelerator_load('eJxtlF1v0zAUhu0kQEcF6wfiYhVtUqHdDBD325DcNlq7lq1bKsTQpiisXZo1JFXSMfHfuOOPYR97sZukF7Hz+rWf45NzapN+357Yl2R2fokMhBBGSEMwQ+gW8d9UhwWsv6Mj6c9G52eO+5U4zujb2L5yh6OTISH0dTDADWZFBsb6Zzqm83tvmc5Xp0OHnA7GQzIZs+kAHmfp/XzpregzXJ6eEWcwnhyw3RoyziESvcVwq00QR6n50SQP6d2/v8vkIfJN+7vdt64qEB3Wmds9sWfoR4XfgEu/4vliAh6MP+zAyVVnR1wl2zPb4afIPfvgYaYXdLJO4rsgXAyqcADWn9HRm3iRbzPF0N4eslE3NGVpWs1HdgHKVmgVLumMli42myDyU9fAhMnHGvOiaw7lET9nXySO7gIf3zzpWdwhpfZgJ+jHmQFXHDUY5sP7VX5BQ3N2lXTA2iEohjjWT7yfhCnHIu5F9MACe9KUBAF2N4urcsLmSN/yGMipFYC1ArBWAhRaRUkWEGuSOKwJomqiyHoBWS8g6yXIukT+9m49VoeArCvIuoJ8MlFko4BsFJCNEqTQ2KcOYz+I+B0bCrAhgNJCcc0CrlnANUtwQnvFKmtJ9y3ctZemj3OgNhVqU1ALTgp/LeCs+sMgWqV4/w2vOE2f7rF9W42wxxtBl43QY9IRZhHxKWCP9mSNQ3qDyPWSxPtzwBYM1J+2UK6VL1pI7QloshZ/324yBDLShPHTerkecaOGNKctoOzPaLMO8WEbkilakF478CPSlumEjNPxuo1kt2YLPe6ElGYG2pWdPKVTQulwykumhGH86NI7pcDqKKzccq8jiR2FaOaJZgnRVMqE5g9Ypjhk60PemFkE6rc0JdtU2FaebZWwLc6WhcTglnJRudKzJMdSON08p1vC6UrOIkniBDjdHIev9LqS05WcL+9hxLze0H+q3eR0');?>
