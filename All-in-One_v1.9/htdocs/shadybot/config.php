@@ -7,7 +7,7 @@
 
 // Spieler, die der Bot steuern soll
 // Wenn du statt einem Benutzernamen einfach left_villages
-// reinschreibst, baut der Bot Barbarendörfer aus
+// reinschreibst, baut der Bot BarbarendÃ¶rfer aus
 $Player = array();
 $Player[] = 'Boti';
 $Player[] = 'left_villages';
@@ -15,8 +15,8 @@ $Player[] = 'left_villages';
 // Dorfname des Bots
 // Platzhalter:
 // {N}    = Name des Bots
-// {NR}   = Zähler
-// {NR_0} = Zähler, mit vorranstehender 0
+// {NR}   = ZÃ¤hler
+// {NR_0} = ZÃ¤hler, mit vorranstehender 0
 // {x}    = x-Koordinate 
 // {y}    = y-Koordinate
 $Vill_Name = '{NR_0} ~ {x}|{y}';
@@ -28,18 +28,18 @@ $Build_Units = true;
 $Farm_Conf = true;
 
 // Was soll der Bot angreifen:
-// - 1: Barbarendörfer
+// - 1: BarbarendÃ¶rfer
 // - 2: Spieler (alle)
 // - 3: Beides
-$Farm_Villages = 1;
+$Farm_Villages = 3;
 
 // Maximale Einheiten
 $Max_Units = array();
-$Max_Units['spear'] = 5000;
-$Max_Units['sword'] = 5000;
-$Max_Units['axe']   = 2500;
-$Max_Units['light'] = 1000;
+//$Max_Units['spear'] = 5000;
+//$Max_Units['sword'] = 5000;
+$Max_Units['axe']   = 6000;
+$Max_Units['light'] = 2500;
 
-// Berichte gleich löschen
-$Delete_Report = true;
+// Berichte gleich lÃ¶schen
+$Delete_Report = false;
 ?>
